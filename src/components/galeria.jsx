@@ -1,15 +1,6 @@
-/**
- * Galeria.jsx
- * Senior Frontend Architect – refaktoring z integracją jQuery (useRef + fadeIn/fadeOut)
- * jQuery operuje WYŁĄCZNIE na kontenerach podpiętych przez useRef, nigdy nie mutuje
- * drzewa DOM zarządzanego przez Reacta.
- */
-
 import { useEffect, useRef, useState, useCallback } from "react";
 import $ from "jquery";
 import "../App.css";
-
-// ─── Dane czołgów ────────────────────────────────────────────────────────────
 
 import abrams   from "../gallery/abrams.jpg";
 import kw1      from "../gallery/kw1.jpg";
